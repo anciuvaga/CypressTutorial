@@ -1,0 +1,16 @@
+{
+    "testid1": {
+        "username": "ciuvagaandrei@gmail.com",
+        "password": "andreiplaton1@"
+    },
+    
+    "testid2": {
+        "username": "{backspace}",
+        "password": "passwordwrong"
+    },
+
+    "testid3": {
+        "username": "test@email.com",
+        "password": "abc"
+    }
+}

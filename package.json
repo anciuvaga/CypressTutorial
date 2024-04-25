@@ -1,0 +1,24 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "description": "Cypress Technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "screenshots": "npx cypress run --spec cypress/e2e/framework_demo/framework_login_demo.cy.js --headed --browser chrome",
+    "cloud_command": "npx cypress run --record --key 79bb2f96-100f-4944-b907-02ba64c97199 --spec cypress/e2e/framework_demo/*.cy.js --headed --browser chrome",
+    "env_demo": "npx cypress run username=ciuvagaandrei,password=andreiplaton1@ --spec cypress/e2e/framework_demo/*.cy.js --headed --browser chrome",
+    "env_open_demo": "npx cypress open --env --record username=ciuvagaandrei,password=andreiplaton1@",
+    "env_demo_process": "npx cypress run --env username=$APP_USERNAME,password=$PASSWORD --spec cypress/e2e/framework_demo/*.cy.js --headed --browser chrome",
+    "env_demo_qa": "npx cypress run --env username=$APP_USERNAME,password=$PASSWORD,url='https://www.letskodeit.com' --spec cypress/e2e/framework_demo/*.cy.js --headed --browser chrome",
+    "api_testing": "npx cypress run --spec cypress/e2e/api_testing/put_delete_refactor.cy.js"
+  },
+  "author": "Andrei Ciuvaga",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^13.7.2",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "playwright-webkit": "1.34"
+  }
+}

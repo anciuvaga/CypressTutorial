@@ -1,0 +1,12 @@
+{
+  "testid1": [
+    {
+      "search_course": "java",
+      "click_course": "Selenium WebDriver 4 With Java"
+    },
+    {
+      "search_course": "java",
+      "click_course": "Java Step By Step For Testers"
+    }
+  ]
+}

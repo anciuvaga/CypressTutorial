@@ -1,0 +1,5 @@
+.vscode
+cypress/screenshots
+cypress/screenshots_directory
+cypress/videos
+node_modules/
